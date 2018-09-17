@@ -107,10 +107,10 @@ void atualiza_PORTD(void) {
 
 void conta(void){
   disp1++;
-  if (disp1 > 9) {
+  if (disp1 > 6) {
       disp1 = 0;
       disp2++;
-      if (disp2 > 9) {
+      if (disp2 > 6) {
        disp2 = 0;   
       }   
   }  
